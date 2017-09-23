@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A88227AF1F766EA100D61195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88227AE1F766EA100D61195 /* AppDelegate.swift */; };
+		A88227B11F766EA100D61195 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88227B01F766EA100D61195 /* ViewController.swift */; };
+		A88227B41F766EA100D61195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88227B21F766EA100D61195 /* Main.storyboard */; };
+		A88227B61F766EA100D61195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88227B51F766EA100D61195 /* Assets.xcassets */; };
+		A88227B91F766EA100D61195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88227B71F766EA100D61195 /* LaunchScreen.storyboard */; };
+		A88227C41F766EA100D61195 /* pinterest_themeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88227C31F766EA100D61195 /* pinterest_themeTests.swift */; };
+		A88227CF1F766EA100D61195 /* pinterest_themeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88227CE1F766EA100D61195 /* pinterest_themeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A88227C01F766EA100D61195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88227A31F766EA100D61195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88227AA1F766EA100D61195;
+			remoteInfo = pinterest_theme;
+		};
+		A88227CB1F766EA100D61195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A88227A31F766EA100D61195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A88227AA1F766EA100D61195;
+			remoteInfo = pinterest_theme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A88227AB1F766EA100D61195 /* pinterest_theme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest_theme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88227AE1F766EA100D61195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A88227B01F766EA100D61195 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A88227B31F766EA100D61195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A88227B51F766EA100D61195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A88227B81F766EA100D61195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A88227BA1F766EA100D61195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88227BF1F766EA100D61195 /* pinterest_themeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_themeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88227C31F766EA100D61195 /* pinterest_themeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterest_themeTests.swift; sourceTree = "<group>"; };
+		A88227C51F766EA100D61195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88227CA1F766EA100D61195 /* pinterest_themeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pinterest_themeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88227CE1F766EA100D61195 /* pinterest_themeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pinterest_themeUITests.swift; sourceTree = "<group>"; };
+		A88227D01F766EA100D61195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A88227A81F766EA100D61195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227BC1F766EA100D61195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227C71F766EA100D61195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A88227A21F766EA100D61195 = {
+			isa = PBXGroup;
+			children = (
+				A88227AD1F766EA100D61195 /* pinterest_theme */,
+				A88227C21F766EA100D61195 /* pinterest_themeTests */,
+				A88227CD1F766EA100D61195 /* pinterest_themeUITests */,
+				A88227AC1F766EA100D61195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A88227AC1F766EA100D61195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A88227AB1F766EA100D61195 /* pinterest_theme.app */,
+				A88227BF1F766EA100D61195 /* pinterest_themeTests.xctest */,
+				A88227CA1F766EA100D61195 /* pinterest_themeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A88227AD1F766EA100D61195 /* pinterest_theme */ = {
+			isa = PBXGroup;
+			children = (
+				A88227AE1F766EA100D61195 /* AppDelegate.swift */,
+				A88227B01F766EA100D61195 /* ViewController.swift */,
+				A88227B21F766EA100D61195 /* Main.storyboard */,
+				A88227B51F766EA100D61195 /* Assets.xcassets */,
+				A88227B71F766EA100D61195 /* LaunchScreen.storyboard */,
+				A88227BA1F766EA100D61195 /* Info.plist */,
+			);
+			path = pinterest_theme;
+			sourceTree = "<group>";
+		};
+		A88227C21F766EA100D61195 /* pinterest_themeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A88227C31F766EA100D61195 /* pinterest_themeTests.swift */,
+				A88227C51F766EA100D61195 /* Info.plist */,
+			);
+			path = pinterest_themeTests;
+			sourceTree = "<group>";
+		};
+		A88227CD1F766EA100D61195 /* pinterest_themeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A88227CE1F766EA100D61195 /* pinterest_themeUITests.swift */,
+				A88227D01F766EA100D61195 /* Info.plist */,
+			);
+			path = pinterest_themeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A88227AA1F766EA100D61195 /* pinterest_theme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88227D31F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_theme" */;
+			buildPhases = (
+				A88227A71F766EA100D61195 /* Sources */,
+				A88227A81F766EA100D61195 /* Frameworks */,
+				A88227A91F766EA100D61195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pinterest_theme;
+			productName = pinterest_theme;
+			productReference = A88227AB1F766EA100D61195 /* pinterest_theme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A88227BE1F766EA100D61195 /* pinterest_themeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88227D61F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_themeTests" */;
+			buildPhases = (
+				A88227BB1F766EA100D61195 /* Sources */,
+				A88227BC1F766EA100D61195 /* Frameworks */,
+				A88227BD1F766EA100D61195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88227C11F766EA100D61195 /* PBXTargetDependency */,
+			);
+			name = pinterest_themeTests;
+			productName = pinterest_themeTests;
+			productReference = A88227BF1F766EA100D61195 /* pinterest_themeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A88227C91F766EA100D61195 /* pinterest_themeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A88227D91F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_themeUITests" */;
+			buildPhases = (
+				A88227C61F766EA100D61195 /* Sources */,
+				A88227C71F766EA100D61195 /* Frameworks */,
+				A88227C81F766EA100D61195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A88227CC1F766EA100D61195 /* PBXTargetDependency */,
+			);
+			name = pinterest_themeUITests;
+			productName = pinterest_themeUITests;
+			productReference = A88227CA1F766EA100D61195 /* pinterest_themeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A88227A31F766EA100D61195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Abdullah Alhassan";
+				TargetAttributes = {
+					A88227AA1F766EA100D61195 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					A88227BE1F766EA100D61195 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A88227AA1F766EA100D61195;
+					};
+					A88227C91F766EA100D61195 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A88227AA1F766EA100D61195;
+					};
+				};
+			};
+			buildConfigurationList = A88227A61F766EA100D61195 /* Build configuration list for PBXProject "pinterest_theme" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A88227A21F766EA100D61195;
+			productRefGroup = A88227AC1F766EA100D61195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A88227AA1F766EA100D61195 /* pinterest_theme */,
+				A88227BE1F766EA100D61195 /* pinterest_themeTests */,
+				A88227C91F766EA100D61195 /* pinterest_themeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A88227A91F766EA100D61195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88227B91F766EA100D61195 /* LaunchScreen.storyboard in Resources */,
+				A88227B61F766EA100D61195 /* Assets.xcassets in Resources */,
+				A88227B41F766EA100D61195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227BD1F766EA100D61195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227C81F766EA100D61195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A88227A71F766EA100D61195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88227B11F766EA100D61195 /* ViewController.swift in Sources */,
+				A88227AF1F766EA100D61195 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227BB1F766EA100D61195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88227C41F766EA100D61195 /* pinterest_themeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A88227C61F766EA100D61195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A88227CF1F766EA100D61195 /* pinterest_themeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A88227C11F766EA100D61195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88227AA1F766EA100D61195 /* pinterest_theme */;
+			targetProxy = A88227C01F766EA100D61195 /* PBXContainerItemProxy */;
+		};
+		A88227CC1F766EA100D61195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A88227AA1F766EA100D61195 /* pinterest_theme */;
+			targetProxy = A88227CB1F766EA100D61195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A88227B21F766EA100D61195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88227B31F766EA100D61195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A88227B71F766EA100D61195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A88227B81F766EA100D61195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A88227D11F766EA100D61195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A88227D21F766EA100D61195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A88227D41F766EA100D61195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_theme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-theme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A88227D51F766EA100D61195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_theme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-theme";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A88227D71F766EA100D61195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_themeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-themeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_theme.app/pinterest_theme";
+			};
+			name = Debug;
+		};
+		A88227D81F766EA100D61195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_themeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-themeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pinterest_theme.app/pinterest_theme";
+			};
+			name = Release;
+		};
+		A88227DA1F766EA100D61195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_themeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-themeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinterest_theme;
+			};
+			name = Debug;
+		};
+		A88227DB1F766EA100D61195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3WKRGK6L2D;
+				INFOPLIST_FILE = pinterest_themeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "atalhassan.pinterest-themeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pinterest_theme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A88227A61F766EA100D61195 /* Build configuration list for PBXProject "pinterest_theme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88227D11F766EA100D61195 /* Debug */,
+				A88227D21F766EA100D61195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88227D31F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_theme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88227D41F766EA100D61195 /* Debug */,
+				A88227D51F766EA100D61195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88227D61F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_themeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88227D71F766EA100D61195 /* Debug */,
+				A88227D81F766EA100D61195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A88227D91F766EA100D61195 /* Build configuration list for PBXNativeTarget "pinterest_themeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88227DA1F766EA100D61195 /* Debug */,
+				A88227DB1F766EA100D61195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A88227A31F766EA100D61195 /* Project object */;
+}
