@@ -8,6 +8,5 @@ This app has the pinterest app layout, where there are two images in a row but w
 # Example
 
 
-<img src="./assets/img2.png" alt="Drawing" width="300"/>
-<img src="./assets/img1.png" alt="Drawing" width="300"/>
+<img src="./assets/img2.png" alt="Drawing" width="300"/> <img src="./assets/img1.png" alt="Drawing" width="300"/>
 
