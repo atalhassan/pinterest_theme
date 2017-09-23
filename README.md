@@ -7,5 +7,5 @@ This app has the pinterest app layout, where there are two images in a row but w
 
 # Example
 
-![Alt text](/assets/img2.png "Image 1")
-![Alt text](/assets/img1.png "Image 2")
+![Alt text](/assets/img2.png | width=100)
+![Alt text](/assets/img1.png | width=100)
