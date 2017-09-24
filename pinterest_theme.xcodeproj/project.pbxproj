@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A83297B41F7770B900163AE4 /* customLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83297B31F7770B900163AE4 /* customLayout.swift */; };
 		A88227AF1F766EA100D61195 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88227AE1F766EA100D61195 /* AppDelegate.swift */; };
 		A88227B61F766EA100D61195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88227B51F766EA100D61195 /* Assets.xcassets */; };
 		A88227B91F766EA100D61195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88227B71F766EA100D61195 /* LaunchScreen.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A83297B31F7770B900163AE4 /* customLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customLayout.swift; sourceTree = "<group>"; };
 		A88227AB1F766EA100D61195 /* pinterest_theme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pinterest_theme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88227AE1F766EA100D61195 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A88227B51F766EA100D61195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				A88227B51F766EA100D61195 /* Assets.xcassets */,
 				A88227B71F766EA100D61195 /* LaunchScreen.storyboard */,
 				A88227BA1F766EA100D61195 /* Info.plist */,
+				A83297B31F7770B900163AE4 /* customLayout.swift */,
 			);
 			path = pinterest_theme;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				A88227AF1F766EA100D61195 /* AppDelegate.swift in Sources */,
 				A88227E21F766F1C00D61195 /* MainVC.swift in Sources */,
+				A83297B41F7770B900163AE4 /* customLayout.swift in Sources */,
 				A88227E31F766F1C00D61195 /* pinCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

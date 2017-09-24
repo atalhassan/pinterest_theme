@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
-        let layout = UICollectionViewFlowLayout()
-        layout.minimumInteritemSpacing = 0
+        let layout = customLayout()
+        
         
         window?.rootViewController = UINavigationController(rootViewController: MainVC(collectionViewLayout: layout))
         

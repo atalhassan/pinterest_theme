@@ -18,10 +18,19 @@ class pinCell: UICollectionViewCell {
     lazy var pinImage : UIImageView = {
         let img = UIImageView()
         img.backgroundColor = .blue
-        img.layer.cornerRadius = 10
+        
+        //corner radius
+        img.layer.cornerRadius = 0
         img.contentMode = .scaleAspectFill
         img.clipsToBounds = true
+        
         img.isUserInteractionEnabled = true
+        
+        //border
+        img.layer.borderWidth = 1
+        img.layer.borderColor = UIColor.white.cgColor
+        
+        // shaodow
         img.layer.shadowColor = UIColor(red: SHADOW_COLOR, green: SHADOW_COLOR, blue: SHADOW_COLOR, alpha: 0.5).cgColor
         img.layer.shadowOpacity = 0.8
         img.layer.shadowRadius = 5.0
@@ -47,8 +56,8 @@ class pinCell: UICollectionViewCell {
     func SetupCell() {
         addSubview(pinImage)
         // Image contraints
-        pinImage.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 8).isActive = true
-        pinImage.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -8).isActive = true
+        pinImage.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 0).isActive = true
+        pinImage.rightAnchor.constraint(equalTo: self.rightAnchor, constant: 0).isActive = true
         pinImage.topAnchor.constraint(equalTo: topAnchor, constant: 0).isActive = true
         pinImage.heightAnchor.constraint(equalTo: heightAnchor, multiplier: 1).isActive = true
     }

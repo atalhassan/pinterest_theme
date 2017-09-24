@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class MainVC: UICollectionViewController, CustomLayoutDelegate {
 
     // collection cell id
     let cellid = "cellid"
@@ -25,8 +25,11 @@ class MainVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
         // setup CollectionView
         collectionView?.backgroundColor = .white
         collectionView?.register(pinCell.self, forCellWithReuseIdentifier: cellid)
-        collectionView?.contentInset = UIEdgeInsets(top: 8, left: 0, bottom: 8, right: 0)
+        
         collectionView?.showsVerticalScrollIndicator = false
+        if let layout = collectionView?.collectionViewLayout as? customLayout {
+            layout.delegate = self
+        }
         
     }
     
@@ -47,15 +50,18 @@ class MainVC: UICollectionViewController, UICollectionViewDelegateFlowLayout {
         return UICollectionViewCell()
     }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
         let img = UIImage(named: "\(indexPath.row + 1)")
-        
-        let width = (view.frame.width / 2 - 10) - 16
-        let height = ((img?.size.height)! / (img?.size.width)!) * width
-        
-        return CGSize(width: view.frame.width / 2 , height: height)
+        let height = img?.size.height
+        return height!
     }
     
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        if let layout = collectionView?.collectionViewLayout as? customLayout {
+            layout.invalidateLayout()
+        }
+    }
     
     // ============================
     // Handle image zoom in/out
